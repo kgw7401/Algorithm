@@ -9,6 +9,6 @@ def rotate_matrix_90(matrix):
   result = [[0]*row for _ in range(col)]
   for i in range(row):
     for j in range(col):
-      result[j][n-i-1] = a[i][j]
+      result[j][row-i-1] = a[i][j]
   return result
 ```
